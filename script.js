@@ -118,7 +118,6 @@ function NotEmpty(errorType, dateType) {
 //   }
 // }
 
-
 function getDate() {
   let a;
   let b;
@@ -188,8 +187,43 @@ function getDate() {
     console.log(a);
     second.innerHTML = b;
     console.log(b);
-    third.textContent = a;
+    // third.textContent = a;
     console.log(c);
+
+
+    let counterDay = 0;
+function timeHandlerA() {
+  third.textContent = counterDay;
+  if (counterDay === a) {
+    clearInterval(animationDay);
+  }
+  counterDay++;
+}
+let animationDay = setInterval(timeHandlerA, 20);
+
+
+    let counterMonth = 0;
+function timeHandlerB() {
+  second.textContent = counterMonth;
+  if (counterMonth === b) {
+    clearInterval(animationMonth);
+  }
+  counterMonth++;
+}
+let animationMonth = setInterval(timeHandlerB, 20);
+
+
+    let counterYear = 0;
+function timeHandlerC() {
+  first.textContent = counterYear;
+  if (counterYear === c) {
+    clearInterval(animationYear);
+  }
+  counterYear++;
+}
+let animationYear = setInterval(timeHandlerC, 20);
+
+
   }
 
   if (!D || D > 32) {
@@ -214,6 +248,8 @@ function getDate() {
     errorSpan[2].classList.add('invisible');
     p[2].classList.remove('red');
   }
+
+  
 }
 
 btn.addEventListener('click', getDate);

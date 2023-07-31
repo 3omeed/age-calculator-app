@@ -38,7 +38,7 @@ to accomplish this challenge I have to be able to:
 
 ### Links
 
-- Live Site URL: [Live Site](https://3omeed.github.io/age-calculator-app/)
+- Live Site URL: [https://3omeed.github.io/age-calculator-app/](https://3omeed.github.io/age-calculator-app/)
 
 ## My process
 
@@ -68,5 +68,5 @@ i also want to practice more on classes and advanced functions and array structu
 
 ## Author
 
-- Website - [Abdelrahman Emad](https://www.linkedin/profile/abdulrahmanemad)
+- Website - [Abdelrahman Emad](https://www.linkedin.com/in/abdelrahman-emad-57bb10237/)
 - Frontend Mentor - [@3omeed](https://www.frontendmentor.io/profile/3omeed)

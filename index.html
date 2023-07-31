@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Age calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style></style>
+  </head>
+  <body>
+    <main>
+      <div class="card">
+        <section class="date-insert">
+          <form action="submit">
+            <div class="day">
+              <p>day</p>
+              <input type="number" maxlength="2" placeholder="DD" />
+              <span class="required invisible">
+                the field is required!
+            </span>
+            <span class="error over invisible" >
+              enter a valid Value!
+          </span>
+            </div>
+            <div class="month">
+              <p>month</p>
+              <input type="number" maxlength="2" placeholder="MM" />
+              <span class="required invisible">
+                the field is required!
+            </span>
+            <span class="error over invisible" >
+              enter a valid Value!
+          </span>
+            </div>
+            <div class="year">
+              <p>year</p>
+              <input type="number" maxlength="4" placeholder="YYYY" />
+              <span class="required invisible" >
+                the field is required!
+            </span>
+              <span class="error over invisible" >
+                enter a valid Value!
+            </span>
+            </div>
+            <img src="assets/images/icon-arrow.svg" alt="icon-arrow">
+          </form>
+        </section>
+        <section class="date-result">
+          <div><span id="first">--</span> years</div>
+          <div><span id="second">--</span> months</div>
+          <div><span id="third">--</span> days</div>
+        </section>
+      </div>
+      <footer>
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#">Abdelrahman Emad</a>.
+        </div>
+      </footer>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -16,7 +16,7 @@ function errorEmpty() {
     p[0].classList.add('red');
     console.log("error")
   }
-  if (D === '' || D > 32) {
+  if (D === '' || D > 31) {
     errorSpan[0].classList.remove('invisible');
     p[0].classList.add('red');
     console.log('error in day');

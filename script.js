@@ -11,11 +11,6 @@ const div = document.querySelectorAll('.date-insert div');
 const errorSpan = document.querySelectorAll('.error');
 
 function errorEmpty() {
-  if (M === 2 && D > 28) {
-    errorSpan[0].classList.remove('invisible');
-    p[0].classList.add('red');
-    console.log("error")
-  }
   if (D === '' || D > 31) {
     errorSpan[0].classList.remove('invisible');
     p[0].classList.add('red');

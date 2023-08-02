@@ -28,7 +28,6 @@ main {
 }
 
 .card {
-  /* height: 400px; */
   min-width: 700px;
   padding: 40px;
   background-color: white;
